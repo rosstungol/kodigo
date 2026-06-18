@@ -8,7 +8,7 @@
 		"dev:cli": "bun run --watch packages/cli/src/index.tsx",
 		"lint-format": "biome check --write"
 	},
-	"dependencies": {
+	"devDependencies": {
 		"@biomejs/biome": "^2.5.0"
 	}
 }
