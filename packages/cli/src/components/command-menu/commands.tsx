@@ -55,7 +55,3 @@ export const COMMANDS: Command[] = [
 		},
 	},
 ]
-
-export function Commands() {
-	return
-}
