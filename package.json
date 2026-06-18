@@ -1,0 +1,15 @@
+{
+	"name": "kodigo",
+	"version": "1.0.0",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"dev:cli": "bun run --watch packages/cli/src/index.tsx",
+		"lint-format": "biome check --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.5.0"
+	}
+}
