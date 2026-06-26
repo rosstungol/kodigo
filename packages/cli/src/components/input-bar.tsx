@@ -3,7 +3,7 @@ import { useRenderer } from '@opentui/react'
 import { useCallback, useEffect, useRef } from 'react'
 
 import { useKeyboardLayer } from '../providers/keyboard-layer/use-keyboard-layer'
-import { useToast } from '../providers/toast'
+import { useToast } from '../providers/toast/use-toast'
 import { CommandMenu } from './command-menu'
 import type { Command } from './command-menu/types'
 import { useCommandMenu } from './command-menu/use-command-menu'
